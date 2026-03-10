@@ -1,0 +1,9 @@
+# Dados pesados — hospedados no Google Drive
+data/images/
+data/numeric/*.csv
+
+# Sistema
+.DS_Store
+*.env
+__pycache__/
+*.pyc
