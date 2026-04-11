@@ -7,3 +7,4 @@ data/numeric/*.csv
 *.env
 __pycache__/
 *.pyc
+.venv/
