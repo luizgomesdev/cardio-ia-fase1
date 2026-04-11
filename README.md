@@ -34,6 +34,14 @@ Classificador que recebe uma frase de paciente e diz se é alto risco ou baixo r
 - Decision Tree: 66% de acurácia
 - Logistic Regression: 86% de acurácia
 
+### Ir Alem 2: Classificação de ECG com Rede Neural
+
+Rede neural MLP (Keras/TensorFlow) que classifica imagens de ECG como normal ou anormal. Usa as 233 imagens da Fase 1 convertidas pra 64x64 tons de cinza.
+
+- 233 imagens (98 normal, 135 anormal)
+- MLP com BatchNormalization e Dropout
+- Acuracia ~50-60% (limitação do MLP com poucas imagens mistas)
+
 ## Video
 
 (TODO - colocar link do YouTube aqui)
@@ -52,7 +60,8 @@ Classificador que recebe uma frase de paciente e diz se é alto risco ou baixo r
 │   │   └── dataset_risco.csv
 │   └── notebooks/
 │       ├── 01_nlp_diagnostico.ipynb
-│       └── 02_classificador.ipynb
+│       ├── 02_classificador.ipynb
+│       └── 03_ecg_neural.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -80,3 +89,4 @@ https://drive.google.com/drive/folders/1P2XFFFI5cmWxcTSeAldToITHJZYMpUR2?usp=sha
 - [Heart Disease UCI Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
 - [Kaggle ECG Dataset](https://www.kaggle.com/datasets/evilspirit05/ecg-analysis)
 - [Scikit-learn TfidfVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
+- [TensorFlow/Keras](https://www.tensorflow.org/)
