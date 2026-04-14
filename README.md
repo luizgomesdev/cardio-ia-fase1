@@ -3,6 +3,7 @@
 **Aluno:** Luiz Felipe Alves Gomes
 **Curso:** IA para Automação de Processos Robóticos - FIAP
 **Turma:** 2TIAOA 2026/1
+**Repositório:** https://github.com/luizgomesdev/cardio-ia-fase1
 
 ## O que é
 
