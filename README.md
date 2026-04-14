@@ -44,7 +44,7 @@ Rede neural MLP (Keras/TensorFlow) que classifica imagens de ECG como normal ou 
 
 ## Video
 
-(TODO - colocar link do YouTube aqui)
+https://youtu.be/FK4Lic0VIkc
 
 ## Estrutura
 
